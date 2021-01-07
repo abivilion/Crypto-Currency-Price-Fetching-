@@ -1,16 +1,15 @@
 import datetime
 import json
 import time
-
 import requests
-
-import sys, confg_tele
+import sys
+import confg_tele  # this file should contain API key, and DEVICE ID
 from boltiot import Bolt
 
 n = 0
+# OWNER: Ayush Bhardwaj(abivilion)
 
 
-# https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD
 
 def start_buzzer():
     """Return the sensor value. Return -999 if request fails"""
