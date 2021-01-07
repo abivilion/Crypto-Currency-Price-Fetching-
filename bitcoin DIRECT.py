@@ -1,14 +1,16 @@
 import json, time, datetime
 import requests
 
+# OWNER: Ayush Bhardwaj (abivilion)
+# Under CC License
+
 
 # GET CRYPTO CURRENCY CURRENT VALUE
-n = 0
-# https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD
+n = 
 
 
 def get_crypt_price(fsym, tsyms):
-    URL = "https://min-api.cryptocompare.com/data/price?fsym=" + fsym + "&tsyms=" + tsyms  # REPLACE WITH CORRECT URL
+    URL = "https://min-api.cryptocompare.com/data/price?fsym=" + fsym + "&tsyms=" + tsyms 
     response = requests.request("GET", URL)
     response = json.loads(response.text)
     current_price = response[tsyms]
