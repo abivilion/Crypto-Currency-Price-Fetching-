@@ -1,5 +1,6 @@
 # Crypto-Currency-Price-Fetching-
 These file allow user to fetch on-time price of Digital Currency. Presently, It is supporting Bitcoin,Ethereum, and RippleNet.
+\n 
 Bitcoin DIRECT: 
 This file directly fetch price of demanded currency and let user choose the conversion medium (USD,EUR and INR).
 Currency Fetch Hardware:
